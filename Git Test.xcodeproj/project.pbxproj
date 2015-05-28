@@ -15,6 +15,7 @@
 		84DFAF0E1B16D67B00F8DF44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DFAF0D1B16D67B00F8DF44 /* Images.xcassets */; };
 		84DFAF111B16D67B00F8DF44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DFAF0F1B16D67B00F8DF44 /* LaunchScreen.xib */; };
 		84DFAF1D1B16D67B00F8DF44 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFAF1C1B16D67B00F8DF44 /* Git_TestTests.m */; };
+		84DFAF281B16DA3A00F8DF44 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFAF271B16DA3A00F8DF44 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		84DFAF161B16D67B00F8DF44 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DFAF1B1B16D67B00F8DF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DFAF1C1B16D67B00F8DF44 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		84DFAF261B16DA3A00F8DF44 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		84DFAF271B16DA3A00F8DF44 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		84DFAEF11B16D67B00F8DF44 = {
 			isa = PBXGroup;
 			children = (
+				84DFAF261B16DA3A00F8DF44 /* Test.h */,
+				84DFAF271B16DA3A00F8DF44 /* Test.m */,
 				84DFAEFC1B16D67B00F8DF44 /* Git Test */,
 				84DFAF191B16D67B00F8DF44 /* Git TestTests */,
 				84DFAEFB1B16D67B00F8DF44 /* Products */,
@@ -223,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DFAF281B16DA3A00F8DF44 /* Test.m in Sources */,
 				84DFAF031B16D67B00F8DF44 /* AppDelegate.m in Sources */,
 				84DFAF001B16D67B00F8DF44 /* main.m in Sources */,
 				84DFAF091B16D67B00F8DF44 /* ViewController.m in Sources */,
